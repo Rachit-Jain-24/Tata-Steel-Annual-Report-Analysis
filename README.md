@@ -1,7 +1,3 @@
-Here’s your **GitHub-ready README.md** version — properly formatted with Markdown, emojis, and sections for readability and professionalism 👇
-
----
-
 # 📊 Annual Report Analysis Dashboard using Streamlit
 
 An **interactive NLP-powered dashboard** built with **Streamlit** for analyzing **annual reports** through sentiment analysis, topic modeling, and word frequency insights.
@@ -101,21 +97,9 @@ Your browser will automatically open the dashboard at **[http://localhost:8501](
    * 📈 *Sentiment Analysis*
    * 🧾 *Word Frequency & Cloud*
    * 🗂️ *Topic Modeling*
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-See the [LICENSE](./LICENSE) file for more details.
-
 ---
 
 ## 👨‍💻 Author
 
 **Rachit Jain**
 🔗 [GitHub Profile](https://github.com/Rachit-Jain-24)
-
----
-
-Would you like me to add **badges** (for Python, Streamlit, license, etc.) and a **preview image section** at the top to make it more visually appealing for GitHub?
