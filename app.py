@@ -13,6 +13,7 @@ import gensim
 from gensim import corpora
 import io
 
+
 # --- Page Configuration ---
 st.set_page_config(
     page_title="PDF Analysis Dashboard",
@@ -21,16 +22,9 @@ st.set_page_config(
 )
 
 # --- NLTK Data Download ---
-# Using a try-except block for robustness in different environments
-try:
-    nltk.data.find('tokenizers/punkt')
-    nltk.data.find('corpora/stopwords')
-except nltk.downloader.DownloadError:
-    with st.spinner("Downloading necessary NLTK data (punkt, stopwords)..."):
-        nltk.download('punkt', quiet=True)
-        nltk.download('stopwords', quiet=True)
-    st.success("NLTK data downloaded successfully!")
-
+with st.spinner("Checking/Downloading NLTK data (punkt, stopwords)..."):
+    nltk.download('punkt', quiet=True)
+    nltk.download('stopwords', quiet=True)
 
 # --- Caching Functions for Performance ---
 
