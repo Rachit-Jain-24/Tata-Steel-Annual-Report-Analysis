@@ -1,0 +1,8 @@
+streamlit
+pandas
+pypdf2
+matplotlib
+nltk
+textblob
+wordcloud
+gensim
